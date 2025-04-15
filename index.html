@@ -4,20 +4,24 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Calculator</title>
 </head>
 <body>
   <div class="calculator">
-    <input type="text" id="display">
+    <!--Show Operation-->
+    <div id="operation"></div>
+    <!-- Result -->
+    <input type="text" id="display" readonly value="0">
     <div class="button-container">
       <span class="button operator">C</span>
-      <span class="button operator">&lt;</span>
+      <button class="button operator"><i class="fa-solid fa-delete-left"></i></button>
       <span class="button operator">.</span>
-      <span class="button operator">/</span>
+      <span class="button operator">÷</span>
       <span class="button">7</span>
       <span class="button">8</span>
       <span class="button">9</span>
-      <span class="button operator">*</span>
+      <span class="button operator">x</span>
       <span class="button">4</span>
       <span class="button">5</span>
       <span class="button">6</span>

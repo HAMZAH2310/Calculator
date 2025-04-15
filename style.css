@@ -63,3 +63,11 @@
 #equals:hover {
   background: orange;
 }
+
+#operation{
+  text-align: right;
+  color: #888;
+  font-size: 14px;
+  padding: 5px 8px 2px;
+  min-height: 18px;
+}
